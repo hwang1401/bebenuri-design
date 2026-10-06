@@ -7,7 +7,7 @@
 - styles.css: 데스크톱·모바일·인쇄 레이아웃
 - app.js: 이미지 원본 확대
 
-로컬 확인: python3 -m http.server 4310 --bind 127.0.0.1
+로컬 확인: python3 -m http.server 9000 --bind 127.0.0.1
 
 Vercel 프로젝트 bebenuri-design에 main 브랜치를 연결합니다. 문서를 수정하고 main에 푸시하면 같은 공유 주소에 반영됩니다.
 
