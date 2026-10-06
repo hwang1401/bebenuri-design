@@ -73,3 +73,20 @@ header .request-label,.request-label{font-size:12px;font-weight:600;color:#a52f5
 .concept-options{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin:20px 0}.concept-options article{padding:16px 20px;background:#f8f6f3;border-radius:8px}.concept-options span{font-size:12px;color:#756e65}.concept-options h4{font-size:18px;margin:6px 0 9px}.concept-options p{font-size:14px;margin:0}
 .scope-note{font-size:12px;color:#756e65;margin-top:22px}
 @media(max-width:700px){.concept-lead{font-size:25px}.concept-options{grid-template-columns:1fr;gap:12px}}
+
+header .document-title{font-size:34px;line-height:1.4;letter-spacing:-1px;margin:0 0 16px;font-weight:400}
+.document-title strong{font-weight:720}.document-title>span{font-weight:400;color:#655e56}
+header>p:last-child{font-size:16px;line-height:1.7;margin-top:0}header{margin-bottom:42px}
+#direction h2{font-size:21px;margin-bottom:16px}
+.concept-lead{font-size:23px;font-weight:550;line-height:1.55;letter-spacing:-.4px;margin:0 0 16px}
+.concept-lead span{font-weight:400;color:#655e56}
+@media(max-width:700px){header .document-title{font-size:27px;letter-spacing:-.7px}.concept-lead{font-size:20px}header>p:last-child{font-size:14px}header{margin-bottom:32px}}
+
+.letter-subtitle{margin-top:32px;font-size:19px}
+.letter-direction{display:grid;grid-template-columns:320px minmax(0,1fr);gap:32px;align-items:start;margin:20px 0 32px}
+.letter-direction figure{border:0;border-radius:0}.letter-direction .expand{background:#fff9ef;border:1px solid #eee6da;border-radius:10px;overflow:hidden}
+.letter-direction figcaption{padding:12px 0;font-size:12px}.letter-direction figcaption strong{font-size:14px}
+.letter-direction .letter-detail-image{height:520px}.letter-detail-image img{height:100%;object-fit:cover;object-position:top}
+.letter-intent{margin:0 0 16px;font-size:17px;font-weight:600}.letter-direction .brief-rules>div{grid-template-columns:68px minmax(0,1fr);gap:14px}.letter-direction .brief-rules dd{font-size:14px}
+.deliverables{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:700px){.letter-direction{grid-template-columns:1fr;gap:20px}.letter-direction figure{width:min(100%,350px);margin:auto}.deliverables{grid-template-columns:1fr}.letter-subtitle{font-size:18px}}
