@@ -41,3 +41,18 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 .color-chip{display:inline-flex;align-items:center;gap:10px;font:13px/1.5 ui-monospace,monospace;white-space:nowrap}
 .color-chip i{display:inline-block;width:24px;height:24px;border:1px solid #0001;border-radius:5px;flex:none}
 @media(max-width:700px){.palette{grid-template-columns:1fr}.record-colors{min-width:0;font-size:12px}.record-colors th,.record-colors td{padding:12px 6px}.color-chip{font-size:10px;gap:5px}.color-chip i{width:18px;height:18px}.site-nav{gap:14px}}
+
+.brief-rules{margin:22px 0}.brief-rules>div{display:grid;grid-template-columns:100px 1fr;gap:18px;padding:12px 0}.brief-rules dt{font-weight:650;color:#a52f50;font-size:14px}.brief-rules dd{margin:0;font-size:15px}
+.fixed-palette{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:16px}.fixed-palette code{display:none}.fixed-palette .swatch p{display:none}
+.reference-details{border:0;border-radius:6px;background:#f6f5f1;padding:13px 16px;margin:8px 0;font-size:14px}.reference-details summary{cursor:pointer;font-weight:600}.reference-details summary:focus-visible{outline:2px solid #c0365d;outline-offset:4px}.reference-details p{font-size:14px}
+.short-note{font-size:14px;color:#655e56}.inline-request{border-left:3px solid #c0365d;padding:4px 0 4px 16px;margin-top:18px;font-size:14px}.inline-request p{margin:5px 0}
+.icon-inventory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;border:0;margin-top:18px}.icon-item{padding:16px 0;border:0}.icon-item .current-symbol{gap:5px}.icon-item .current-symbol svg{width:28px;height:28px}.icon-item .current-symbol strong{font-size:15px}.icon-item>p{font-size:13px;margin:9px 0 0}
+.concise-list{font-size:15px}.concise-list strong{margin-right:8px}.deliver-line{background:#faf5f6;padding:16px 20px;font-size:14px;margin-top:24px}.deliver-line>strong{color:#a52f50;margin-right:10px}
+.issue-list>div{display:grid;grid-template-columns:1fr 1.6fr;gap:24px;padding:15px 0;font-size:14px}.issue-list strong{font-weight:600}
+.deliverables{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}.deliverables article{padding:8px 0}.deliverables span{font-size:13px;color:#655e56}.deliverables h3{font-size:25px;margin:5px 0}.deliverables p{font-size:14px}
+@media(max-width:700px){.brief-rules>div{grid-template-columns:72px 1fr;gap:10px}.brief-rules dd{font-size:14px}.icon-inventory{grid-template-columns:repeat(2,minmax(0,1fr))}.icon-item{padding:16px 8px}.fixed-palette{gap:8px}.fixed-palette .swatch{grid-template-columns:14px 1fr}.fixed-palette .swatch>div:last-child{padding:10px}.fixed-palette .swatch strong{font-size:12px}.issue-list>div{grid-template-columns:1fr;gap:5px}.deliverables{gap:15px}.deliverables h3{font-size:21px}}
+
+/* Section boundaries own the full-width dividers. */
+#direction{border-top:0;padding-top:0}
+.comparison figure{border:0;border-radius:0}.comparison figcaption{border:0;padding:14px 0;background:white}.comparison .expand{border:1px solid #e6e0d8;border-radius:8px}
+.issue-list>div+div{border-top:1px solid #eeeae5}
