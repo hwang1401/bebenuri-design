@@ -56,3 +56,15 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}
 #direction{border-top:0;padding-top:0}
 .comparison figure{border:0;border-radius:0}.comparison figcaption{border:0;padding:14px 0;background:white}.comparison .expand{border:1px solid #e6e0d8;border-radius:8px}
 .issue-list>div+div{border-top:1px solid #eeeae5}
+
+.back-to-list{display:inline-block;margin-bottom:24px;font-size:13px;color:#756e65;text-decoration:none}
+header .request-label,.request-label{font-size:12px;font-weight:600;color:#a52f50;letter-spacing:.04em;margin:0 0 12px}
+.library-nav-label{color:#756e65;font-size:13px}.library{min-height:65vh;padding:48px 52px}
+.library header{margin-bottom:54px}.library h1{font-size:38px;margin-bottom:16px}.library header>p:last-child{font-size:17px}
+.library-heading{display:flex;align-items:center;gap:10px;margin-bottom:12px}.library-heading h2{font-size:18px;margin:0}.library-heading>span{font-size:12px;color:#756e65}
+.document-row{display:grid;grid-template-columns:48px minmax(0,1fr) 24px;gap:20px;padding:26px 4px;border-top:1px solid #e6e0d8;text-decoration:none;color:inherit}
+.document-row:hover .document-copy h2{color:#a52f50}.document-row:focus-visible{outline:2px solid #c0365d;outline-offset:5px}
+.document-number{font-size:23px;color:#aa9d91;font-weight:500}.document-copy .document-label{font-size:12px;color:#a52f50;margin:0 0 7px}
+.document-copy h2{font-size:23px;margin:0 0 8px;transition:color .15s}.document-copy>p{font-size:14px;color:#655e56;margin:0}
+.document-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.document-tags span{font-size:12px;padding:4px 9px;background:#f6f5f1;border-radius:4px;color:#655e56}.document-arrow{font-size:22px;color:#a52f50}
+@media(max-width:700px){.library{padding:32px 22px}.library h1{font-size:30px}.library header{margin-bottom:38px}.document-row{grid-template-columns:30px minmax(0,1fr) 18px;gap:10px}.document-copy h2{font-size:20px}.document-number{font-size:19px}.document-copy>p{font-size:13px}.document-arrow{font-size:18px}.back-to-list{margin-bottom:20px}}
