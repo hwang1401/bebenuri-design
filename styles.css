@@ -90,3 +90,8 @@ header>p:last-child{font-size:16px;line-height:1.7;margin-top:0}header{margin-bo
 .letter-intent{margin:0 0 16px;font-size:17px;font-weight:600}.letter-direction .brief-rules>div{grid-template-columns:68px minmax(0,1fr);gap:14px}.letter-direction .brief-rules dd{font-size:14px}
 .deliverables{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:700px){.letter-direction{grid-template-columns:1fr;gap:20px}.letter-direction figure{width:min(100%,350px);margin:auto}.deliverables{grid-template-columns:1fr}.letter-subtitle{font-size:18px}}
+
+.design-priorities{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:18px 0}
+.design-priorities article{padding:0 0 0 16px;border-left:2px solid #e8b7c3}.design-priorities h3{font-size:17px;margin:0 0 8px}.design-priorities p{font-size:14px;margin:0;color:#655e56}
+.priority-support{font-size:14px;color:#655e56;margin:20px 0 32px}#direction .tone-heading{margin-top:34px}
+@media(max-width:700px){.design-priorities{grid-template-columns:1fr;gap:20px}.design-priorities h3{font-size:16px}}
