@@ -1,0 +1,1 @@
+const d=document.getElementById('zoom');document.querySelectorAll('.expand').forEach(b=>b.addEventListener('click',()=>{const i=b.querySelector('img'),f=document.getElementById('full');f.src=i.src;f.alt=i.alt;d.showModal();}));document.getElementById('close').addEventListener('click',()=>d.close());d.addEventListener('click',e=>{if(e.target===d)d.close();});
